@@ -12,7 +12,9 @@
 
 ---
 
-## ╱ `SYSTEM PROFILE`
+<div align="center">
+<img src="./assets/headings/system-profile.svg" width="100%" alt="System Profile">
+</div>
 
 <div align="center">
 
@@ -37,7 +39,9 @@ AUTONOMOUS TECH   ████████████████
 
 ---
 
-## ╱ `TECH ARSENAL`
+<div align="center">
+<img src="./assets/headings/tech-arsenal.svg" width="100%" alt="Tech Arsenal">
+</div>
 
 <div align="center">
 
@@ -57,7 +61,9 @@ AUTONOMOUS TECH   ████████████████
 
 ---
 
-## ╱ `ROBOTICS CORE`
+<div align="center">
+<img src="./assets/headings/robotics-core.svg" width="100%" alt="Robotics Core">
+</div>
 
 <div align="center">
 
@@ -114,33 +120,42 @@ AUTONOMOUS TECH   ████████████████
 **Areas I'm exploring**
 
 `Artificial Intelligence` · `Machine Learning` · `Computer Vision` · `Robotics` · `Automation` · `Drone Technology`
+
 ---
 
-## ╱ `ACTIVE LAB`
+<div align="center">
+<img src="./assets/headings/active-lab.svg" width="100%" alt="Active Lab">
+</div>
 
 ### `01 // AI SYSTEMS`
+
 Small experiments for learning Python, AI concepts, automation and intelligent systems.
 
 **Stack:** `Python` · `AI` · `ML`
 
 ### `02 // ROBOTICS`
+
 Exploring how software can interact with sensors, machines and physical systems.
 
 **Stack:** `Python` · `C++` · `Robotics`
 
 ### `03 // DRONE INTELLIGENCE`
+
 Long-term exploration of software, AI and autonomous drone systems.
 
 **Stack:** `Python` · `C++` · `AI` · `Computer Vision`
 
 ### `04 // SOFTWARE LAB`
+
 Programming projects used to strengthen engineering fundamentals.
 
 **Stack:** `Java` · `Python` · `C++` · `JavaScript`
 
 ---
 
-## ╱ `CURRENT MISSION`
+<div align="center">
+<img src="./assets/headings/current-mission.svg" width="100%" alt="Current Mission">
+</div>
 
 ```yaml
 SRS_CORE:
@@ -173,11 +188,13 @@ SRS_CORE:
 
 ---
 
-## ╱ `BUILD PROTOCOL`
+<div align="center">
+<img src="./assets/headings/build-protocol.svg" width="100%" alt="Build Protocol">
+</div>
 
 <div align="center">
 
-`LEARN`  →  `BUILD`  →  `TEST`  →  `BREAK`  →  `FIX`  →  `IMPROVE`
+`LEARN` → `BUILD` → `TEST` → `BREAK` → `FIX` → `IMPROVE`
 
 <br>
 
@@ -187,7 +204,9 @@ SRS_CORE:
 
 ---
 
-## ╱ `CONNECT`
+<div align="center">
+<img src="./assets/headings/connect.svg" width="100%" alt="Connect">
+</div>
 
 <div align="center">
 
