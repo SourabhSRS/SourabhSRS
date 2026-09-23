@@ -61,33 +61,59 @@ AUTONOMOUS TECH   ████████████████
 
 <div align="center">
 
-```text
-             ┌───────────────┐
-             │   SOFTWARE    │
-             └───────┬───────┘
-                     │
-                     ▼
-             ┌───────────────┐
-             │  INTELLIGENCE │
-             └───────┬───────┘
-                     │
-          ┌──────────┴──────────┐
-          ▼                     ▼
-     ┌──────────┐          ┌──────────┐
-     │ ROBOTICS │          │  DRONES  │
-     └────┬─────┘          └────┬─────┘
-          │                     │
-          └──────────┬──────────┘
-                     ▼
-             AUTONOMOUS SYSTEMS
-```
+<table>
+<tr>
+<td align="center" width="25%">
+
+### SOFTWARE
+
+`Python`  
+`C++`  
+`Algorithms`
+
+</td>
+
+<td align="center" width="25%">
+
+### INTELLIGENCE
+
+`AI`  
+`Machine Learning`  
+`Computer Vision`
+
+</td>
+
+<td align="center" width="25%">
+
+### ROBOTICS
+
+`Automation`  
+`Sensors`  
+`Control`
+
+</td>
+
+<td align="center" width="25%">
+
+### AUTONOMY
+
+`Drones`  
+`Navigation`  
+`Autonomous Systems`
+
+</td>
+</tr>
+</table>
+
+<br>
+
+`SOFTWARE`　╱　`INTELLIGENCE`　╱　`ROBOTICS`　╱　`AUTONOMY`
 
 </div>
 
 **Areas I'm exploring**
 
 `Artificial Intelligence` · `Machine Learning` · `Computer Vision` · `Robotics` · `Automation` · `Drone Technology`
-
 ---
 
 ## ╱ `ACTIVE LAB`
