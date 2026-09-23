@@ -14,3 +14,752 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SourabhSRS | Developer</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #050607;
+            color: #e8e8e8;
+            min-height: 100vh;
+        }
+
+        /* ---------- TOP BAR ---------- */
+
+        .topbar {
+            height: 64px;
+            background: #080a0c;
+            border-bottom: 1px solid #202428;
+            display: flex;
+            align-items: center;
+            padding: 0 30px;
+            gap: 25px;
+        }
+
+        .github-logo {
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .username {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .nav {
+            display: flex;
+            gap: 25px;
+            margin-left: 30px;
+            color: #a9adb2;
+            font-size: 14px;
+        }
+
+        .nav span {
+            cursor: pointer;
+        }
+
+        .nav span:hover {
+            color: white;
+        }
+
+        .search {
+            margin-left: auto;
+            background: #0c0f12;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 10px 18px;
+            color: #777;
+            width: 260px;
+        }
+
+        /* ---------- MAIN ---------- */
+
+        .container {
+            max-width: 1450px;
+            margin: 25px auto;
+            padding: 0 25px;
+            display: grid;
+            grid-template-columns: 290px 1fr;
+            gap: 25px;
+        }
+
+        /* ---------- PROFILE ---------- */
+
+        .profile {
+            padding: 10px;
+        }
+
+        .avatar {
+            width: 245px;
+            height: 245px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            background:
+                radial-gradient(circle at 70% 25%, #ff3b3b 0%, #8b0000 8%, transparent 20%),
+                linear-gradient(145deg, #050505, #180000 60%, #050505);
+            border: 2px solid #383838;
+            box-shadow:
+                0 0 25px rgba(255, 0, 0, 0.25),
+                inset 0 0 40px rgba(255, 0, 0, 0.08);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 70px;
+            color: #efefef;
+        }
+
+        .profile h1 {
+            font-size: 28px;
+            margin-bottom: 3px;
+        }
+
+        .handle {
+            color: #888;
+            margin-bottom: 18px;
+        }
+
+        .bio {
+            color: #b9bec4;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .profile-info {
+            list-style: none;
+            color: #b7bcc2;
+        }
+
+        .profile-info li {
+            margin: 15px 0;
+        }
+
+        .red {
+            color: #ff3131;
+        }
+
+        /* ---------- README ---------- */
+
+        .readme {
+            background: #07090b;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .readme-header {
+            padding: 18px 25px;
+            border-bottom: 1px solid #25292d;
+            font-size: 14px;
+            color: #b8bdc3;
+        }
+
+        .hero {
+            min-height: 400px;
+            padding: 55px;
+            position: relative;
+            overflow: hidden;
+            background:
+                radial-gradient(circle at 80% 30%, rgba(255, 0, 0, 0.17), transparent 30%),
+                radial-gradient(circle at 60% 90%, rgba(150, 0, 0, 0.10), transparent 35%),
+                linear-gradient(120deg, #050607, #0b0d0f 55%, #120000);
+        }
+
+        .hero::after {
+            content: "";
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            right: -150px;
+            top: -150px;
+            border-radius: 50%;
+            border: 1px solid rgba(255, 30, 30, 0.15);
+            box-shadow:
+                0 0 80px rgba(255, 0, 0, 0.08),
+                inset 0 0 80px rgba(255, 0, 0, 0.05);
+        }
+
+        .logo {
+            font-size: clamp(45px, 6vw, 85px);
+            font-weight: 900;
+            letter-spacing: -3px;
+            margin-bottom: 10px;
+            color: white;
+            text-shadow: 0 0 20px rgba(255,255,255,0.12);
+        }
+
+        .logo span {
+            color: #ff2020;
+            text-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+        }
+
+        .tagline {
+            letter-spacing: 7px;
+            font-size: 14px;
+            color: #c5c5c5;
+            margin-bottom: 35px;
+        }
+
+        .intro {
+            max-width: 500px;
+            color: #bfc4c9;
+            line-height: 1.7;
+            font-size: 16px;
+        }
+
+        .quote {
+            margin-top: 25px;
+            border-left: 3px solid #ff2020;
+            padding: 13px 20px;
+            background: rgba(255, 0, 0, 0.04);
+            color: #ff4444;
+            width: fit-content;
+            font-style: italic;
+        }
+
+        /* ---------- CARDS ---------- */
+
+        .quick-links {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            padding: 20px;
+            border-bottom: 1px solid #25292d;
+        }
+
+        .quick-card {
+            border: 1px solid #292e33;
+            border-radius: 9px;
+            padding: 18px;
+            background: #080b0d;
+            transition: 0.25s;
+        }
+
+        .quick-card:hover {
+            border-color: #ff2222;
+            box-shadow: 0 0 20px rgba(255, 0, 0, 0.10);
+            transform: translateY(-2px);
+        }
+
+        .icon {
+            color: #ff2020;
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+
+        .quick-card h3 {
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+
+        .quick-card p {
+            color: #777;
+            font-size: 12px;
+        }
+
+        /* ---------- LOWER GRID ---------- */
+
+        .lower-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+        }
+
+        .section {
+            padding: 25px;
+            border-bottom: 1px solid #25292d;
+        }
+
+        .section:nth-child(odd) {
+            border-right: 1px solid #25292d;
+        }
+
+        .section-title {
+            font-size: 19px;
+            margin-bottom: 22px;
+        }
+
+        .section-title::before {
+            content: ">_";
+            color: #ff2020;
+            margin-right: 12px;
+        }
+
+        /* ---------- TECH STACK ---------- */
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .tech {
+            background: #0c1013;
+            border: 1px solid #292e33;
+            padding: 10px 14px;
+            border-radius: 7px;
+            color: #c7cbd0;
+            font-size: 13px;
+            transition: .2s;
+        }
+
+        .tech:hover {
+            border-color: #ff2020;
+            color: #ff3b3b;
+        }
+
+        /* ---------- STATS ---------- */
+
+        .stats {
+            background: #080b0d;
+            border: 1px solid #252a2e;
+            border-radius: 8px;
+            padding: 18px;
+        }
+
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+            color: #9ea3a8;
+        }
+
+        .stat-number {
+            color: #ff2929;
+            font-weight: bold;
+        }
+
+        .contributions {
+            margin-top: 18px;
+            display: grid;
+            grid-template-columns: repeat(20, 1fr);
+            gap: 4px;
+        }
+
+        .square {
+            height: 10px;
+            background: #151a1e;
+            border-radius: 2px;
+        }
+
+        .square.active {
+            background: #8d1616;
+        }
+
+        .square.hot {
+            background: #ff2424;
+        }
+
+        /* ---------- LISTS ---------- */
+
+        .list {
+            list-style: none;
+        }
+
+        .list li {
+            margin: 12px 0;
+            color: #aeb3b8;
+        }
+
+        .list li::before {
+            content: "•";
+            color: #ff2020;
+            margin-right: 10px;
+        }
+
+        /* ---------- FOOTER ---------- */
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #555;
+            font-size: 13px;
+        }
+
+        footer span {
+            color: #ff2020;
+        }
+
+        /* ---------- RESPONSIVE ---------- */
+
+        @media(max-width: 1000px) {
+
+            .container {
+                grid-template-columns: 1fr;
+            }
+
+            .profile {
+                text-align: center;
+            }
+
+            .profile-info {
+                text-align: left;
+                max-width: 400px;
+                margin: auto;
+            }
+
+            .quick-links {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .nav {
+                display: none;
+            }
+        }
+
+        @media(max-width: 600px) {
+
+            .topbar {
+                padding: 0 15px;
+            }
+
+            .search {
+                display: none;
+            }
+
+            .hero {
+                padding: 35px 25px;
+            }
+
+            .quick-links {
+                grid-template-columns: 1fr;
+            }
+
+            .lower-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .section:nth-child(odd) {
+                border-right: none;
+            }
+
+            .logo {
+                font-size: 45px;
+            }
+
+            .tagline {
+                letter-spacing: 3px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- TOP NAVIGATION -->
+
+    <header class="topbar">
+
+        <div class="github-logo">◉</div>
+
+        <div class="username">
+            SourabhSRS
+        </div>
+
+        <nav class="nav">
+            <span>Code</span>
+            <span>Issues</span>
+            <span>Pull requests</span>
+            <span>Actions</span>
+            <span>Projects</span>
+            <span>Wiki</span>
+            <span>Insights</span>
+        </nav>
+
+        <div class="search">
+            🔍 &nbsp; Type / to search
+        </div>
+
+    </header>
+
+
+    <!-- MAIN -->
+
+    <main class="container">
+
+        <!-- PROFILE SIDEBAR -->
+
+        <aside class="profile">
+
+            <div class="avatar">
+                &lt;/&gt;
+            </div>
+
+            <h1>SourabhSRS</h1>
+
+            <div class="handle">
+                @SourabhSRS
+            </div>
+
+            <p class="bio">
+                Developer · Learner · Dreamer
+                <br><br>
+                Building a better version of myself,
+                one commit at a time.
+            </p>
+
+            <ul class="profile-info">
+
+                <li>📍 India</li>
+
+                <li>💻 Computer Science | AI | Robotics</li>
+
+                <li>⚡ Always learning...</li>
+
+                <li>🔗 github.com/SourabhSRS</li>
+
+                <li>📅 Joined GitHub 2026</li>
+
+            </ul>
+
+        </aside>
+
+
+        <!-- README -->
+
+        <section class="readme">
+
+            <div class="readme-header">
+                SourabhSRS / README.md
+            </div>
+
+
+            <!-- HERO -->
+
+            <div class="hero">
+
+                <div class="logo">
+                    SOURABH<span>SRS</span>
+                </div>
+
+                <div class="tagline">
+                    CODE → LEARN → BUILD → REPEAT
+                </div>
+
+                <p class="intro">
+
+                    Hi, I'm Sourabh 👋
+
+                    <br><br>
+
+                    A passionate learner interested in
+                    Computer Science, AI, Robotics and
+                    building cool things.
+
+                    <br><br>
+
+                    I love exploring technology, solving
+                    problems and turning ideas into real
+                    projects.
+
+                </p>
+
+                <div class="quote">
+                    "Better Code, Brighter Tomorrow."
+                </div>
+
+            </div>
+
+
+            <!-- QUICK LINKS -->
+
+            <div class="quick-links">
+
+                <div class="quick-card">
+                    <div class="icon">&lt;/&gt;</div>
+                    <h3>Projects</h3>
+                    <p>Check out my work →</p>
+                </div>
+
+                <div class="quick-card">
+                    <div class="icon">◆</div>
+                    <h3>Skills</h3>
+                    <p>Tools I use →</p>
+                </div>
+
+                <div class="quick-card">
+                    <div class="icon">⌘</div>
+                    <h3>Learning</h3>
+                    <p>Currently exploring →</p>
+                </div>
+
+                <div class="quick-card">
+                    <div class="icon">✉</div>
+                    <h3>Contact</h3>
+                    <p>Let's connect →</p>
+                </div>
+
+            </div>
+
+
+            <!-- LOWER CONTENT -->
+
+            <div class="lower-grid">
+
+
+                <!-- TECH STACK -->
+
+                <div class="section">
+
+                    <h2 class="section-title">
+                        Tech Stack
+                    </h2>
+
+                    <div class="tech-stack">
+
+                        <div class="tech">🐍 Python</div>
+                        <div class="tech">☕ Java</div>
+                        <div class="tech">C++</div>
+                        <div class="tech">JS</div>
+                        <div class="tech">HTML</div>
+                        <div class="tech">CSS</div>
+                        <div class="tech">Git</div>
+                        <div class="tech">GitHub</div>
+                        <div class="tech">VS Code</div>
+                        <div class="tech">Linux</div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- GITHUB STATS -->
+
+                <div class="section">
+
+                    <h2 class="section-title">
+                        GitHub Stats
+                    </h2>
+
+                    <div class="stats">
+
+                        <div class="stat-row">
+                            <span>Contributions</span>
+                            <span class="stat-number">254</span>
+                        </div>
+
+                        <div class="stat-row">
+                            <span>Repositories</span>
+                            <span class="stat-number">15</span>
+                        </div>
+
+                        <div class="stat-row">
+                            <span>Followers</span>
+                            <span class="stat-number">12</span>
+                        </div>
+
+                        <div class="stat-row">
+                            <span>Following</span>
+                            <span class="stat-number">8</span>
+                        </div>
+
+                        <div class="contributions">
+
+                            <script>
+                                for (let i = 0; i < 100; i++) {
+                                    const square = document.createElement("div");
+                                    square.className = "square";
+
+                                    if (Math.random() > 0.75)
+                                        square.classList.add("active");
+
+                                    if (Math.random() > 0.94)
+                                        square.classList.add("hot");
+
+                                    document.querySelector(".contributions")
+                                        .appendChild(square);
+                                }
+                            </script>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CURRENTLY WORKING -->
+
+                <div class="section">
+
+                    <h2 class="section-title">
+                        Currently Working On
+                    </h2>
+
+                    <ul class="list">
+
+                        <li>
+                            Improving programming & problem solving
+                        </li>
+
+                        <li>
+                            Learning AI & Robotics
+                        </li>
+
+                        <li>
+                            Building personal projects
+                        </li>
+
+                        <li>
+                            Exploring new technologies
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- GOALS -->
+
+                <div class="section">
+
+                    <h2 class="section-title">
+                        Goals
+                    </h2>
+
+                    <ul class="list">
+
+                        <li>
+                            Build impactful projects
+                        </li>
+
+                        <li>
+                            Learn and grow consistently
+                        </li>
+
+                        <li>
+                            Explore drones & AI Robotics
+                        </li>
+
+                        <li>
+                            Build something meaningful
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        Built with <span>♥</span> and lots of code · SourabhSRS
+    </footer>
+
+</body>
+</html>
