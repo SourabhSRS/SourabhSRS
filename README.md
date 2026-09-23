@@ -214,11 +214,11 @@ SRS_CORE:
 <img src="https://img.shields.io/badge/GITHUB-SOURABHSRS-050505?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=050505&color=ff2020">
 </a>
 
-<a href="mailto:YOUR_EMAIL@gmail.com">
+<a href="mailto:sourabhrshetty@outlook.com">
 <img src="https://img.shields.io/badge/EMAIL-CONTACT-050505?style=for-the-badge&logo=gmail&logoColor=ffffff&labelColor=050505&color=ff2020">
 </a>
 
-<a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">
+<a href="https://www.linkedin.com/in/sourabh-r-shetty/">
 <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-050505?style=for-the-badge&logo=linkedin&logoColor=ffffff&labelColor=050505&color=ff2020">
 </a>
 
