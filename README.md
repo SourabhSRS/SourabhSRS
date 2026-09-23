@@ -1,244 +1,125 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,50:300000,100:ff1a1a&height=180&section=header&text=SOURABH%20SRS&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=CODE%20%E2%86%92%20LEARN%20%E2%86%92%20BUILD%20%E2%86%92%20REPEAT&descAlignY=60&descSize=15" width="100%"/>
-
-<a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3000&pause=1000&color=FF3030&center=true&vCenter=true&width=750&lines=Computer+Science+Engineering+Student;AI+%26+Robotics+Enthusiast;Python+%7C+Java+%7C+C%2B%2B;Exploring+AI%2C+Robotics+%26+Drones;Building+Projects+One+Commit+At+A+Time" alt="Typing SVG"/>
-</a>
+<img src="./assets/startup.svg" width="100%" alt="SourabhSRS startup animation">
 
 <br>
 
-<img src="https://img.shields.io/badge/Computer%20Science-0d0d0d?style=for-the-badge&logo=academia&logoColor=ff3030"/>
-<img src="https://img.shields.io/badge/AI%20%26%20Robotics-0d0d0d?style=for-the-badge&logo=robotframework&logoColor=ff3030"/>
-<img src="https://img.shields.io/badge/India-0d0d0d?style=for-the-badge&logo=googlemaps&logoColor=ff3030"/>
+<img src="./assets/slash-divider.svg" width="100%" alt="Red slash divider">
 
-<br><br>
-
-<a href="https://github.com/SourabhSRS">
-<img src="https://img.shields.io/badge/GitHub-SourabhSRS-0d0d0d?style=for-the-badge&logo=github&logoColor=ffffff"/>
-</a>
-
-<a href="mailto:YOUR_EMAIL@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact-0d0d0d?style=for-the-badge&logo=gmail&logoColor=ff3030"/>
-</a>
-
-<a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0d0d0d?style=for-the-badge&logo=linkedin&logoColor=ff3030"/>
-</a>
-
-<br><br>
-
-<img src="https://komarev.com/ghpvc/?username=SourabhSRS&style=for-the-badge&color=ff2020&label=PROFILE+VIEWS"/>
+### `COMPUTER SCIENCE // AI // ROBOTICS // DRONES`
 
 </div>
 
 ---
 
-# 👨‍💻 About Me
+## ╱ `SYSTEM PROFILE`
 
-Hi, I'm **Sourabh**.
+<div align="center">
 
-I'm a **Computer Science Engineering student** interested in software development, Artificial Intelligence, Robotics and emerging technologies.
+**SOURABH SRS**  
+`CSE STUDENT` · `AI EXPLORER` · `ROBOTICS BUILDER`
 
-I enjoy learning by building projects and experimenting with new technologies.
+</div>
+
+I'm a Computer Science Engineering student building my foundation across **software development, AI, robotics and drone technology**.
+
+I prefer learning by making things: writing code, experimenting, breaking systems, fixing them and gradually turning ideas into working projects.
 
 ```text
-Computer Science
-       ↓
-Programming
-       ↓
-Artificial Intelligence
-       ↓
-Robotics
-       ↓
-Drones & Autonomous Systems
+CORE INTERESTS
+
+AI                ████████████████████
+ROBOTICS          ███████████████████
+DRONE SYSTEMS     █████████████████
+SOFTWARE          ████████████████████
+AUTONOMOUS TECH   ████████████████
 ```
 
-### Current Interests
-
-* 💻 Software Development
-* 🤖 Artificial Intelligence
-* ⚙️ Robotics
-* 🚁 Drone Technology
-* 🧠 Machine Learning
-* 🔧 Problem Solving
-* 🌐 Building Practical Projects
-
-### Open To
-
-`Open Source` · `Student Projects` · `Collaboration` · `AI/Robotics`
-
 ---
 
-# 🛠️ Tech Stack
+## ╱ `TECH ARSENAL`
 
-### Languages
+<div align="center">
 
-<p>
+<img src="https://skillicons.dev/icons?i=python,java,cpp,html,css,js,git,github,vscode,linux&theme=dark" alt="Technology stack">
 
-<img src="https://skillicons.dev/icons?i=python,java,cpp,js&theme=dark"/>
-
-</p>
-
-### Web Development
-
-<p>
-
-<img src="https://skillicons.dev/icons?i=html,css,js&theme=dark"/>
-
-</p>
-
-### Tools & Platforms
-
-<p>
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,linux&theme=dark"/>
-
-</p>
-
----
-
-# 🤖 AI / Robotics
-
-| Area                    | Status       | Focus                      |
-| ----------------------- | ------------ | -------------------------- |
-| Python                  | 🟢 Learning  | Programming & automation   |
-| Artificial Intelligence | 🟡 Exploring | AI fundamentals            |
-| Machine Learning        | 🟡 Exploring | ML concepts & applications |
-| Robotics                | 🟡 Exploring | Intelligent systems        |
-| Computer Vision         | 🟡 Exploring | Vision-based applications  |
-| Drones                  | 🟡 Exploring | Autonomous systems         |
-
----
-
-# 🚀 Featured Projects
-
-<details>
-<summary><b>🤖 AI & Robotics Projects</b></summary>
+</div>
 
 <br>
 
-Projects focused on learning and experimenting with Artificial Intelligence, Robotics and autonomous systems.
-
-**Technology**
-
-`Python` `C++` `AI` `Robotics`
-
-**Focus**
-
-* Intelligent systems
-* Automation
-* Robotics
-* Real-world applications
-
-</details>
+| CORE | TECHNOLOGY |
+|:---|:---|
+| `LANGUAGES` | Python · Java · C++ · JavaScript |
+| `WEB` | HTML · CSS · JavaScript |
+| `TOOLS` | Git · GitHub · VS Code |
+| `SYSTEMS` | Linux · Development Environments |
+| `EXPLORING` | AI · ML · Computer Vision · Robotics · Drones |
 
 ---
 
-<details>
-<summary><b>🚁 Drone Technology</b></summary>
-
-<br>
-
-Exploring the combination of software, AI and drone technology to understand autonomous systems and intelligent flight applications.
-
-**Technology**
-
-`Python` `C++` `AI` `Drones`
-
-**Focus**
-
-* Drone programming
-* Automation
-* Autonomous systems
-* AI-assisted applications
-
-</details>
-
----
-
-<details>
-<summary><b>💻 Programming Projects</b></summary>
-
-<br>
-
-A collection of programming projects created while developing software engineering fundamentals.
-
-**Technology**
-
-`Python` `Java` `C++` `JavaScript`
-
-**Focus**
-
-* Programming fundamentals
-* Object-oriented programming
-* Problem solving
-* Software development
-
-</details>
-
----
-
-# 📊 GitHub Analytics
+## ╱ `ROBOTICS CORE`
 
 <div align="center">
 
-<a href="https://github.com/SourabhSRS">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=SourabhSRS&show_icons=true&hide_border=true&bg_color=0d0d0d&title_color=ff3030&icon_color=ff3030&text_color=dddddd"/>
-
-</a>
-
-<a href="https://github.com/SourabhSRS">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SourabhSRS&layout=compact&hide_border=true&bg_color=0d0d0d&title_color=ff3030&text_color=dddddd"/>
-
-</a>
-
-<br><br>
-
-<img src="https://streak-stats.demolab.com?user=SourabhSRS&theme=dark&hide_border=true&background=0d0d0d&ring=ff3030&fire=ff3030&currStreakLabel=ff3030&sideLabels=dddddd&dates=888888"/>
-
-</div>
-
----
-
-# 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=SourabhSRS&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7"/>
+```text
+             ┌───────────────┐
+             │   SOFTWARE    │
+             └───────┬───────┘
+                     │
+                     ▼
+             ┌───────────────┐
+             │  INTELLIGENCE │
+             └───────┬───────┘
+                     │
+          ┌──────────┴──────────┐
+          ▼                     ▼
+     ┌──────────┐          ┌──────────┐
+     │ ROBOTICS │          │  DRONES  │
+     └────┬─────┘          └────┬─────┘
+          │                     │
+          └──────────┬──────────┘
+                     ▼
+             AUTONOMOUS SYSTEMS
+```
 
 </div>
 
----
+**Areas I'm exploring**
 
-# 📈 Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SourabhSRS&bg_color=0d0d0d&color=ffffff&line=ff3030&point=ff6060&area=true&hide_border=true"/>
-
-</div>
+`Artificial Intelligence` · `Machine Learning` · `Computer Vision` · `Robotics` · `Automation` · `Drone Technology`
 
 ---
 
-# 🐍 Contribution Snake
+## ╱ `ACTIVE LAB`
 
-<div align="center">
+### `01 // AI SYSTEMS`
+Small experiments for learning Python, AI concepts, automation and intelligent systems.
 
-<img src="https://raw.githubusercontent.com/SourabhSRS/SourabhSRS/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake"/>
+**Stack:** `Python` · `AI` · `ML`
 
-</div>
+### `02 // ROBOTICS`
+Exploring how software can interact with sensors, machines and physical systems.
 
-> **Note:** The snake requires a GitHub Actions workflow in the repository to generate the SVG.
+**Stack:** `Python` · `C++` · `Robotics`
+
+### `03 // DRONE INTELLIGENCE`
+Long-term exploration of software, AI and autonomous drone systems.
+
+**Stack:** `Python` · `C++` · `AI` · `Computer Vision`
+
+### `04 // SOFTWARE LAB`
+Programming projects used to strengthen engineering fundamentals.
+
+**Stack:** `Java` · `Python` · `C++` · `JavaScript`
 
 ---
 
-# ⚡ Current Focus
+## ╱ `CURRENT MISSION`
 
 ```yaml
-current_focus:
+SRS_CORE:
+
+  status: "ONLINE"
 
   learning:
     - Python
@@ -247,54 +128,58 @@ current_focus:
     - Data Structures
     - Artificial Intelligence
     - Machine Learning
+    - Git / GitHub
 
   building:
-    - Personal Projects
+    - Software Projects
     - AI Experiments
-    - Robotics Projects
+    - Robotics Experiments
+    - Drone Concepts
 
   exploring:
-    - AI
-    - Robotics
-    - Drone Technology
+    - Computer Vision
     - Autonomous Systems
+    - Intelligent Robotics
 
-  improving:
-    - Programming
-    - Problem Solving
-    - Software Engineering
-    - Git & GitHub
-
-  open_to:
-    - Open Source
-    - Collaboration
-    - Student Projects
-    - AI & Robotics Projects
+  objective:
+    "Turn ideas into working systems."
 ```
 
 ---
 
-# 🌐 Connect With Me
+## ╱ `BUILD PROTOCOL`
+
+<div align="center">
+
+`LEARN`  →  `BUILD`  →  `TEST`  →  `BREAK`  →  `FIX`  →  `IMPROVE`
+
+<br>
+
+**REPEAT.**
+
+</div>
+
+---
+
+## ╱ `CONNECT`
 
 <div align="center">
 
 <a href="https://github.com/SourabhSRS">
-
-<img src="https://img.shields.io/badge/GitHub-SourabhSRS-0d0d0d?style=for-the-badge&logo=github&logoColor=ffffff"/>
-
+<img src="https://img.shields.io/badge/GITHUB-SOURABHSRS-050505?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=050505&color=ff2020">
 </a>
 
 <a href="mailto:YOUR_EMAIL@gmail.com">
-
-<img src="https://img.shields.io/badge/Gmail-Contact-0d0d0d?style=for-the-badge&logo=gmail&logoColor=ff3030"/>
-
+<img src="https://img.shields.io/badge/EMAIL-CONTACT-050505?style=for-the-badge&logo=gmail&logoColor=ffffff&labelColor=050505&color=ff2020">
 </a>
 
 <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">
-
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0d0d0d?style=for-the-badge&logo=linkedin&logoColor=ff3030"/>
-
+<img src="https://img.shields.io/badge/LINKEDIN-CONNECT-050505?style=for-the-badge&logo=linkedin&logoColor=ffffff&labelColor=050505&color=ff2020">
 </a>
+
+<br><br>
+
+`SYSTEM ONLINE` · `SOURABH SRS` · `BUILD MODE`
 
 </div>
 
@@ -302,10 +187,8 @@ current_focus:
 
 <div align="center">
 
-### `CODE. LEARN. BUILD. REPEAT.`
+<img src="./assets/slash-divider.svg" width="100%" alt="Red slash divider">
 
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,50:300000,100:ff1a1a&height=120&section=footer" width="100%"/>
+### `CODE // AI // ROBOTICS // DRONES`
 
 </div>
