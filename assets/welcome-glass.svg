@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 90" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wGlass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="50%" stop-color="#ff2020" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="5" width="996" height="80" rx="12" fill="url(#wGlass)" stroke="#ff2020" stroke-opacity="0.35" stroke-width="1.2"/>
+  <circle cx="42" cy="45" r="8" fill="#00ff66">
+    <animate attributeName="r" values="6;9;6" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="68" y="38" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="800" fill="#ffffff" letter-spacing="1.5">WELCOME TO MY DIGITAL R&amp;D LAB // SOURABH SRS</text>
+  <text x="68" y="62" font-family="'JetBrains Mono', monospace" font-size="13" fill="#cccccc">Feel free to inspect the expandable lab modules, explore repositories, or connect for AI &amp; Robotics builds.</text>
+</svg>
