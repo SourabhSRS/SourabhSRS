@@ -1,6 +1,5 @@
 
-Conversation with Gemini
-make this even more good with more animations and open up welcomes. it should be in good ui and glass icons for github profile readme file type "<div align="center">
+<div align="center">
 
 
 
