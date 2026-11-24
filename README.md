@@ -7,7 +7,7 @@
 
 <!-- TYPING WELCOME -->
 <a href="https://github.com/SourabhSRS">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&duration=2600&pause=900&color=FF1A1A&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=65&lines=%3E+WELCOME+TO+SOURABH_SRS+%2F%2F+CYBERNETIC+HUD;%3E+ACCESS+GRANTED+%3A%3A+INITIALIZING+AI+%26+ROBOTICS+CORE...;%3E+COMPUTER+SCIENCE+%2F%2F+AI+%2F%2F+ROBOTICS+%2F%2F+DRONES" alt="Typing welcome" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&duration=2600&pause=900&color=E10600&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=65&lines=%3E+WELCOME+TO+SOURABH_SRS+%2F%2F+CYBERNETIC+HUD;%3E+ACCESS+GRANTED+%3A%3A+INITIALIZING+AI+%26+ROBOTICS+CORE...;%3E+COMPUTER+SCIENCE+%2F%2F+AI+%2F%2F+ROBOTICS+%2F%2F+DRONES" alt="Typing welcome" />
 </a>
 
 <br>
@@ -17,9 +17,9 @@
 <br><br>
 
 <!-- STATUS PILLS -->
-<img src="https://img.shields.io/badge/STATUS-SYSTEM_ONLINE-050505?style=for-the-badge&logo=statuspage&logoColor=00ff66&labelColor=050505&color=ff1a1a" alt="System Online" />
-<img src="https://img.shields.io/badge/MODE-ACTIVE_BUILD-050505?style=for-the-badge&logo=githubactions&logoColor=ffffff&labelColor=050505&color=ff1a1a" alt="Build Mode" />
-<img src="https://komarev.com/ghpvc/?username=SourabhSRS&label=HUD+VIEWS&color=ff1a1a&style=for-the-badge&abbreviated=true" alt="Profile Views" />
+<img src="https://img.shields.io/badge/STATUS-SYSTEM_ONLINE-050505?style=for-the-badge&logo=statuspage&logoColor=00ff66&labelColor=050505&color=e10600" alt="System Online" />
+<img src="https://img.shields.io/badge/MODE-ACTIVE_BUILD-050505?style=for-the-badge&logo=githubactions&logoColor=ffffff&labelColor=050505&color=e10600" alt="Build Mode" />
+<img src="https://komarev.com/ghpvc/?username=SourabhSRS&label=HUD+VIEWS&color=e10600&style=for-the-badge&abbreviated=true" alt="Profile Views" />
 
 <br><br>
 
@@ -133,11 +133,11 @@ AUTONOMOUS TECH  : ████████████████░░░░ 
 
 | CORE | TECHNOLOGY | STATUS |
 |:---|:---|:---:|
-| `LANGUAGES` | ![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=ff1a1a) ![Java](https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=ff1a1a) ![C++](https://img.shields.io/badge/C++-0d1117?style=flat-square&logo=cplusplus&logoColor=ff1a1a) ![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=ff1a1a) | `CORE` |
-| `WEB & UI` | ![HTML5](https://img.shields.io/badge/HTML5-0d1117?style=flat-square&logo=html5&logoColor=ff1a1a) ![CSS3](https://img.shields.io/badge/CSS3-0d1117?style=flat-square&logo=css3&logoColor=ff1a1a) ![Flask](https://img.shields.io/badge/Flask-0d1117?style=flat-square&logo=flask&logoColor=ff1a1a) | `ACTIVE` |
-| `TOOLS` | ![Git](https://img.shields.io/badge/Git-0d1117?style=flat-square&logo=git&logoColor=ff1a1a) ![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=ff1a1a) ![VS Code](https://img.shields.io/badge/VS_Code-0d1117?style=flat-square&logo=visualstudiocode&logoColor=ff1a1a) | `DAILY` |
-| `SYSTEMS` | ![Linux](https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=ff1a1a) ![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=ff1a1a) | `READY` |
-| `EXPLORING` | ![AI](https://img.shields.io/badge/AI_&_ML-0d1117?style=flat-square&logo=openai&logoColor=ff1a1a) ![CV](https://img.shields.io/badge/Computer_Vision-0d1117?style=flat-square&logo=opencv&logoColor=ff1a1a) ![Robotics](https://img.shields.io/badge/Robotics-0d1117?style=flat-square&logo=ros&logoColor=ff1a1a) ![Drones](https://img.shields.io/badge/UAV_%2F_Drones-0d1117?style=flat-square&logoColor=ff1a1a) | `R&D` |
+| `LANGUAGES` | ![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=e10600) ![Java](https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=e10600) ![C++](https://img.shields.io/badge/C++-0d1117?style=flat-square&logo=cplusplus&logoColor=e10600) ![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=e10600) | `CORE` |
+| `WEB & UI` | ![HTML5](https://img.shields.io/badge/HTML5-0d1117?style=flat-square&logo=html5&logoColor=e10600) ![CSS3](https://img.shields.io/badge/CSS3-0d1117?style=flat-square&logo=css3&logoColor=e10600) ![Flask](https://img.shields.io/badge/Flask-0d1117?style=flat-square&logo=flask&logoColor=e10600) | `ACTIVE` |
+| `TOOLS` | ![Git](https://img.shields.io/badge/Git-0d1117?style=flat-square&logo=git&logoColor=e10600) ![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=e10600) ![VS Code](https://img.shields.io/badge/VS_Code-0d1117?style=flat-square&logo=visualstudiocode&logoColor=e10600) | `DAILY` |
+| `SYSTEMS` | ![Linux](https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=e10600) ![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=e10600) | `READY` |
+| `EXPLORING` | ![AI](https://img.shields.io/badge/AI_&_ML-0d1117?style=flat-square&logo=openai&logoColor=e10600) ![CV](https://img.shields.io/badge/Computer_Vision-0d1117?style=flat-square&logo=opencv&logoColor=e10600) ![Robotics](https://img.shields.io/badge/Robotics-0d1117?style=flat-square&logo=ros&logoColor=e10600) ![Drones](https://img.shields.io/badge/UAV_%2F_Drones-0d1117?style=flat-square&logoColor=e10600) | `R&D` |
 
 </div>
 
@@ -218,7 +218,7 @@ AUTONOMOUS TECH  : ████████████████░░░░ 
 </div>
 
 ```yaml
-ZEPHY_CORE:
+SRS_CORE:
 
   status: "ONLINE"
 
@@ -256,12 +256,12 @@ ZEPHY_CORE:
 <summary><b><code>// LIVE GITHUB TELEMETRY (CLICK TO TOGGLE)</code></b></summary>
 <br>
 
-<img src="https://streak-stats.demolab.com?user=SourabhSRS&theme=dark&hide_border=true&background=050505&ring=ff1a1a&fire=ff1a1a&currStreakLabel=ff1a1a&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff" width="48%" alt="GitHub Streak" />
-<img src="https://github-readme-stats.vercel.app/api?username=SourabhSRS&show_icons=true&theme=dark&hide_border=true&bg_color=050505&title_color=ff1a1a&icon_color=ff1a1a&text_color=ffffff" width="48%" alt="GitHub Stats" />
+<img src="https://streak-stats.demolab.com?user=SourabhSRS&theme=dark&hide_border=true&background=050505&ring=e10600&fire=e10600&currStreakLabel=e10600&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff" width="48%" alt="GitHub Streak" />
+<img src="https://github-readme-stats.vercel.app/api?username=SourabhSRS&show_icons=true&theme=dark&hide_border=true&bg_color=050505&title_color=e10600&icon_color=e10600&text_color=ffffff" width="48%" alt="GitHub Stats" />
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SourabhSRS&bg_color=050505&color=ffffff&line=ff1a1a&point=ffffff&area=true&hide_border=true" width="100%" alt="Activity Graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SourabhSRS&bg_color=050505&color=ffffff&line=e10600&point=ffffff&area=true&hide_border=true" width="100%" alt="Activity Graph" />
 
 </details>
 </div>
@@ -271,7 +271,7 @@ ZEPHY_CORE:
 <!-- ==================== BUILD PROTOCOL ==================== -->
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=2500&pause=1000&color=FF1A1A&center=true&vCenter=true&width=700&height=45&lines=LEARN+%E2%86%92+BUILD+%E2%86%92+TEST+%E2%86%92+BREAK+%E2%86%92+FIX+%E2%86%92+IMPROVE+%E2%86%92+REPEAT." alt="Build Protocol Loop" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=2500&pause=1000&color=E10600&center=true&vCenter=true&width=700&height=45&lines=LEARN+%E2%86%92+BUILD+%E2%86%92+TEST+%E2%86%92+BREAK+%E2%86%92+FIX+%E2%86%92+IMPROVE+%E2%86%92+REPEAT." alt="Build Protocol Loop" />
 
 <br>
 
@@ -293,13 +293,13 @@ ZEPHY_CORE:
 <div align="center">
 
 <a href="https://github.com/SourabhSRS">
-<img src="https://img.shields.io/badge/GITHUB-SOURABHSRS-050505?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=050505&color=ff1a1a" alt="GitHub">
+<img src="https://img.shields.io/badge/GITHUB-SOURABHSRS-050505?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=050505&color=e10600" alt="GitHub">
 </a>&nbsp;&nbsp;
 <a href="mailto:sourabhrshetty@outlook.com">
-<img src="https://img.shields.io/badge/EMAIL-CONTACT-050505?style=for-the-badge&logo=gmail&logoColor=ffffff&labelColor=050505&color=ff1a1a" alt="Email">
+<img src="https://img.shields.io/badge/EMAIL-CONTACT-050505?style=for-the-badge&logo=gmail&logoColor=ffffff&labelColor=050505&color=e10600" alt="Email">
 </a>&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/sourabh-r-shetty/">
-<img src="https://img.shields.io/badge/LINKEDIN-CONNECT-050505?style=for-the-badge&logo=linkedin&logoColor=ffffff&labelColor=050505&color=ff1a1a" alt="LinkedIn">
+<img src="https://img.shields.io/badge/LINKEDIN-CONNECT-050505?style=for-the-badge&logo=linkedin&logoColor=ffffff&labelColor=050505&color=e10600" alt="LinkedIn">
 </a>
 
 <br><br>
