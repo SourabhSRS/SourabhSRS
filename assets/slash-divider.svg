@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="22" viewBox="0 0 1000 22">
+<style>.s{fill:#e10600;animation:pulse 2.4s ease-in-out infinite}@keyframes pulse{0%,100%{fill-opacity:.15}50%{fill-opacity:1}}</style>
+<line x1="0" y1="11" x2="1000" y2="11" stroke="#ffffff" stroke-opacity=".08"/>
+<polygon class="s" style="animation-delay:-0ms" points="6,20 12,20 8,2 2,2"/>
+<polygon class="s" style="animation-delay:-90ms" points="31,20 37,20 33,2 27,2"/>
+<polygon class="s" style="animation-delay:-180ms" points="56,20 62,20 58,2 52,2"/>
+<polygon class="s" style="animation-delay:-270ms" points="81,20 87,20 83,2 77,2"/>
+<polygon class="s" style="animation-delay:-360ms" points="106,20 112,20 108,2 102,2"/>
+<polygon class="s" style="animation-delay:-450ms" points="131,20 137,20 133,2 127,2"/>
+<polygon class="s" style="animation-delay:-540ms" points="156,20 162,20 158,2 152,2"/>
+<polygon class="s" style="animation-delay:-630ms" points="181,20 187,20 183,2 177,2"/>
+<polygon class="s" style="animation-delay:-720ms" points="206,20 212,20 208,2 202,2"/>
+<polygon class="s" style="animation-delay:-810ms" points="231,20 237,20 233,2 227,2"/>
+<polygon class="s" style="animation-delay:-900ms" points="256,20 262,20 258,2 252,2"/>
+<polygon class="s" style="animation-delay:-990ms" points="281,20 287,20 283,2 277,2"/>
+<polygon class="s" style="animation-delay:-1080ms" points="306,20 312,20 308,2 302,2"/>
+<polygon class="s" style="animation-delay:-1170ms" points="331,20 337,20 333,2 327,2"/>
+<polygon class="s" style="animation-delay:-1260ms" points="356,20 362,20 358,2 352,2"/>
+<polygon class="s" style="animation-delay:-1350ms" points="381,20 387,20 383,2 377,2"/>
+<polygon class="s" style="animation-delay:-1440ms" points="406,20 412,20 408,2 402,2"/>
+<polygon class="s" style="animation-delay:-1530ms" points="431,20 437,20 433,2 427,2"/>
+<polygon class="s" style="animation-delay:-1620ms" points="456,20 462,20 458,2 452,2"/>
+<polygon class="s" style="animation-delay:-1710ms" points="481,20 487,20 483,2 477,2"/>
+<polygon class="s" style="animation-delay:-1800ms" points="506,20 512,20 508,2 502,2"/>
+<polygon class="s" style="animation-delay:-1890ms" points="531,20 537,20 533,2 527,2"/>
+<polygon class="s" style="animation-delay:-1980ms" points="556,20 562,20 558,2 552,2"/>
+<polygon class="s" style="animation-delay:-2070ms" points="581,20 587,20 583,2 577,2"/>
+<polygon class="s" style="animation-delay:-2160ms" points="606,20 612,20 608,2 602,2"/>
+<polygon class="s" style="animation-delay:-2250ms" points="631,20 637,20 633,2 627,2"/>
+<polygon class="s" style="animation-delay:-2340ms" points="656,20 662,20 658,2 652,2"/>
+<polygon class="s" style="animation-delay:-2430ms" points="681,20 687,20 683,2 677,2"/>
+<polygon class="s" style="animation-delay:-2520ms" points="706,20 712,20 708,2 702,2"/>
+<polygon class="s" style="animation-delay:-2610ms" points="731,20 737,20 733,2 727,2"/>
+<polygon class="s" style="animation-delay:-2700ms" points="756,20 762,20 758,2 752,2"/>
+<polygon class="s" style="animation-delay:-2790ms" points="781,20 787,20 783,2 777,2"/>
+<polygon class="s" style="animation-delay:-2880ms" points="806,20 812,20 808,2 802,2"/>
+<polygon class="s" style="animation-delay:-2970ms" points="831,20 837,20 833,2 827,2"/>
+<polygon class="s" style="animation-delay:-3060ms" points="856,20 862,20 858,2 852,2"/>
+<polygon class="s" style="animation-delay:-3150ms" points="881,20 887,20 883,2 877,2"/>
+<polygon class="s" style="animation-delay:-3240ms" points="906,20 912,20 908,2 902,2"/>
+<polygon class="s" style="animation-delay:-3330ms" points="931,20 937,20 933,2 927,2"/>
+<polygon class="s" style="animation-delay:-3420ms" points="956,20 962,20 958,2 952,2"/>
+<polygon class="s" style="animation-delay:-3510ms" points="981,20 987,20 983,2 977,2"/>
+</svg>

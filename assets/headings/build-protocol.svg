@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="64" viewBox="0 0 1000 64">
+<defs>
+  <linearGradient id="laser" x1="0" x2="1"><stop offset="0" stop-color="#e10600"/><stop offset="1" stop-color="#e10600" stop-opacity="0"/></linearGradient>
+  <style>
+    text{font-family:Orbitron,Eurostile,'Arial Black',Impact,sans-serif}
+    .n{fill:#070809;font-size:18px;font-weight:900}
+    .t{fill:#f4f4f4;font-size:26px;font-weight:800;letter-spacing:3px;animation:rise .6s ease-out both}
+    .tag{transform-box:fill-box;transform-origin:left;animation:slab .7s cubic-bezier(.7,0,.2,1) both}
+    @keyframes slab{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+    .laser{transform-box:fill-box;transform-origin:left;transform:scaleX(0);animation:grow 1.4s .3s cubic-bezier(.7,0,.2,1) forwards}
+    @keyframes grow{to{transform:scaleX(1)}}
+    .ch{fill:#e10600;font-size:20px;font-weight:900;font-family:''JetBrains Mono',Consolas,monospace';animation:blink 1.2s steps(2) infinite}
+    @keyframes blink{50%{opacity:0}}
+    @keyframes rise{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:none}}
+  </style>
+</defs>
+<polygon class="tag" points="8,14 62,14 62,42 54,50 0,50 0,22" fill="#e10600"/>
+<text class="n" x="31" y="38" text-anchor="middle">06</text>
+<text class="t" x="92" y="41">BUILD PROTOCOL</text>
+<text class="ch" x="344" y="41">_</text>
+<rect x="0" y="60" width="1000" height="1.5" fill="#ffffff" fill-opacity=".1"/>
+<rect class="laser" x="0" y="59" width="1000" height="3" fill="url(#laser)"/>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150">
+<defs>
+  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="pc"><polygon points="24,2 998,2 998,126 976,148 2,148 2,24"/></clipPath>
+  <linearGradient id="sweep" x1="0" x2="1"><stop offset="0" stop-color="#e10600" stop-opacity="0"/><stop offset=".5" stop-color="#e10600" stop-opacity=".22"/><stop offset="1" stop-color="#e10600" stop-opacity="0"/></linearGradient>
+  <style>
+    text{font-family:Orbitron,Eurostile,'Arial Black',Impact,sans-serif}
+    .mono{font-family:'JetBrains Mono',Consolas,monospace}
+    .edge{fill:none;stroke:#e10600;stroke-width:1.5;stroke-dasharray:1200;stroke-dashoffset:1200;animation:draw 2s ease-out forwards}
+    @keyframes draw{to{stroke-dashoffset:0}}
+    .h{fill:#f4f4f4;font-size:30px;font-weight:800;letter-spacing:2px;animation:rise .8s .5s both}
+    .p{fill:#8a8a8a;font-size:14px;animation:rise .8s .7s both}
+    .tag{font-family:'JetBrains Mono',Consolas,monospace;fill:#e10600;font-size:12px;letter-spacing:2px;animation:rise .8s .9s both}
+    .bar{transform-box:fill-box;transform-origin:left;transform:scaleX(0);animation:grow 1.6s .4s cubic-bezier(.7,0,.2,1) forwards}
+    @keyframes grow{to{transform:scaleX(1)}}
+    .sw{animation:sw 4s linear infinite}
+    @keyframes sw{from{transform:translateX(-300px)}to{transform:translateX(1300px)}}
+    .br{animation:blink 1.6s steps(2) infinite}
+    @keyframes blink{50%{opacity:.2}}
+    @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  </style>
+</defs>
+<polygon points="24,2 998,2 998,126 976,148 2,148 2,24" fill="#0c0d10"/>
+<g clip-path="url(#pc)"><rect class="sw" x="0" y="0" width="260" height="150" fill="url(#sweep)"/></g>
+<polygon class="edge" points="24,2 998,2 998,126 976,148 2,148 2,24"/>
+<rect class="bar" x="0" y="0" width="1000" height="4" fill="#e10600"/>
+<text class="h" x="48" y="70">WELCOME, OPERATOR</text>
+<text class="p" x="48" y="96">Building AI, robotics and drone systems. Learn, build, break, fix.</text>
+<text class="tag" x="48" y="122">[ IDENTITY VERIFIED ] [ SRS ] [ ACTIVE BUILD ]</text>
+<g class="br" fill="#e10600"><rect x="906" y="30" width="30" height="3"/><rect x="930" y="30" width="3" height="20"/><rect x="66" y="112" width="3" height="0"/></g>
+</svg>
