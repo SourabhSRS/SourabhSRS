@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="26" viewBox="0 0 1000 26">
+<style>.s{stroke:#ff0033;stroke-width:3;animation:p 2.4s ease-in-out infinite}@keyframes p{50%{stroke-opacity:.15}}</style>
+<rect width="1000" height="26" fill="none"/>
+<line x1="0" y1="13" x2="1000" y2="13" stroke="#ff0033" stroke-opacity=".35" stroke-width="1"/>
+<path class="s" style="animation-delay:-0ms" d="M5 24 L13 2"/>
+<path class="s" style="animation-delay:-300ms" d="M30 24 L38 2"/>
+<path class="s" style="animation-delay:-600ms" d="M55 24 L63 2"/>
+<path class="s" style="animation-delay:-900ms" d="M80 24 L88 2"/>
+<path class="s" style="animation-delay:-1200ms" d="M105 24 L113 2"/>
+<path class="s" style="animation-delay:-1500ms" d="M130 24 L138 2"/>
+<path class="s" style="animation-delay:-1800ms" d="M155 24 L163 2"/>
+<path class="s" style="animation-delay:-2100ms" d="M180 24 L188 2"/>
+<path class="s" style="animation-delay:-0ms" d="M205 24 L213 2"/>
+<path class="s" style="animation-delay:-300ms" d="M230 24 L238 2"/>
+<path class="s" style="animation-delay:-600ms" d="M255 24 L263 2"/>
+<path class="s" style="animation-delay:-900ms" d="M280 24 L288 2"/>
+<path class="s" style="animation-delay:-1200ms" d="M305 24 L313 2"/>
+<path class="s" style="animation-delay:-1500ms" d="M330 24 L338 2"/>
+<path class="s" style="animation-delay:-1800ms" d="M355 24 L363 2"/>
+<path class="s" style="animation-delay:-2100ms" d="M380 24 L388 2"/>
+<path class="s" style="animation-delay:-0ms" d="M405 24 L413 2"/>
+<path class="s" style="animation-delay:-300ms" d="M430 24 L438 2"/>
+<path class="s" style="animation-delay:-600ms" d="M455 24 L463 2"/>
+<path class="s" style="animation-delay:-900ms" d="M480 24 L488 2"/>
+<path class="s" style="animation-delay:-1200ms" d="M505 24 L513 2"/>
+<path class="s" style="animation-delay:-1500ms" d="M530 24 L538 2"/>
+<path class="s" style="animation-delay:-1800ms" d="M555 24 L563 2"/>
+<path class="s" style="animation-delay:-2100ms" d="M580 24 L588 2"/>
+<path class="s" style="animation-delay:-0ms" d="M605 24 L613 2"/>
+<path class="s" style="animation-delay:-300ms" d="M630 24 L638 2"/>
+<path class="s" style="animation-delay:-600ms" d="M655 24 L663 2"/>
+<path class="s" style="animation-delay:-900ms" d="M680 24 L688 2"/>
+<path class="s" style="animation-delay:-1200ms" d="M705 24 L713 2"/>
+<path class="s" style="animation-delay:-1500ms" d="M730 24 L738 2"/>
+<path class="s" style="animation-delay:-1800ms" d="M755 24 L763 2"/>
+<path class="s" style="animation-delay:-2100ms" d="M780 24 L788 2"/>
+<path class="s" style="animation-delay:-0ms" d="M805 24 L813 2"/>
+<path class="s" style="animation-delay:-300ms" d="M830 24 L838 2"/>
+<path class="s" style="animation-delay:-600ms" d="M855 24 L863 2"/>
+<path class="s" style="animation-delay:-900ms" d="M880 24 L888 2"/>
+<path class="s" style="animation-delay:-1200ms" d="M905 24 L913 2"/>
+<path class="s" style="animation-delay:-1500ms" d="M930 24 L938 2"/>
+<path class="s" style="animation-delay:-1800ms" d="M955 24 L963 2"/>
+<path class="s" style="animation-delay:-2100ms" d="M980 24 L988 2"/>
+<path class="s" style="animation-delay:-0ms" d="M1005 24 L1013 2"/>
+</svg>

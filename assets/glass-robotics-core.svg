@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280">
+<style>
+  text{font-family:'JetBrains Mono',Consolas,monospace}
+  @keyframes pulse{50%{stroke-opacity:.15}}
+  .spin{transform-box:fill-box;transform-origin:center;animation:spin 6s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .blink{animation:bl 1.4s ease-in-out infinite}
+  @keyframes bl{50%{opacity:.2}}
+</style>
+<rect width="1000" height="280" fill="#050505"/>
+<g transform="translate(20,20)">
+  <rect width="220" height="240" rx="16" fill="#ffffff" fill-opacity=".05" stroke="#ff0033" stroke-opacity=".6" stroke-width="1.5" style="animation:pulse 3s ease-in-out 0s infinite"/>
+  <rect x="0" y="0" width="220" height="4" rx="2" fill="#ff0033"/>
+  <text x="110" y="95" text-anchor="middle" fill="#ff0033" font-size="44" font-weight="800">&lt;/&gt;</text>
+  <text x="110" y="170" text-anchor="middle" fill="#fff" font-size="18" font-weight="800">SOFTWARE</text>
+  <text x="110" y="196" text-anchor="middle" fill="#8a8a8a" font-size="12">// code &amp; systems</text>
+</g>
+<g transform="translate(260,20)">
+  <rect width="220" height="240" rx="16" fill="#ffffff" fill-opacity=".05" stroke="#ff0033" stroke-opacity=".6" stroke-width="1.5" style="animation:pulse 3s ease-in-out 0.5s infinite"/>
+  <rect x="0" y="0" width="220" height="4" rx="2" fill="#ff0033"/>
+  <g fill="none" stroke="#ff0033" stroke-width="2"><circle cx="110" cy="80" r="8"/><circle cx="70" cy="110" r="6"/><circle cx="150" cy="110" r="6"/><circle cx="110" cy="130" r="6"/><path d="M110 80L70 110M110 80L150 110M70 110L110 130M150 110L110 130"/></g>
+  <text x="110" y="170" text-anchor="middle" fill="#fff" font-size="18" font-weight="800">INTELLIGENCE</text>
+  <text x="110" y="196" text-anchor="middle" fill="#8a8a8a" font-size="12">// AI &amp; ML</text>
+</g>
+<g transform="translate(500,20)">
+  <rect width="220" height="240" rx="16" fill="#ffffff" fill-opacity=".05" stroke="#ff0033" stroke-opacity=".6" stroke-width="1.5" style="animation:pulse 3s ease-in-out 1s infinite"/>
+  <rect x="0" y="0" width="220" height="4" rx="2" fill="#ff0033"/>
+  <g class="spin" fill="none" stroke="#ff0033" stroke-width="3" transform-origin="110 95"><circle cx="110" cy="95" r="26" stroke-dasharray="10 6"/></g><circle cx="110" cy="95" r="8" fill="#ff0033"/>
+  <text x="110" y="170" text-anchor="middle" fill="#fff" font-size="18" font-weight="800">ROBOTICS</text>
+  <text x="110" y="196" text-anchor="middle" fill="#8a8a8a" font-size="12">// sensors &amp; actuators</text>
+</g>
+<g transform="translate(740,20)">
+  <rect width="220" height="240" rx="16" fill="#ffffff" fill-opacity=".05" stroke="#ff0033" stroke-opacity=".6" stroke-width="1.5" style="animation:pulse 3s ease-in-out 1.5s infinite"/>
+  <rect x="0" y="0" width="220" height="4" rx="2" fill="#ff0033"/>
+  <g fill="none" stroke="#ff0033" stroke-width="2"><path d="M110 95L60 65M110 95L160 65M110 95L60 125M110 95L160 125"/><circle cx="60" cy="65" r="12"/><circle cx="160" cy="65" r="12"/><circle cx="60" cy="125" r="12"/><circle cx="160" cy="125" r="12"/></g><circle cx="110" cy="95" r="7" fill="#ff0033" class="blink"/>
+  <text x="110" y="170" text-anchor="middle" fill="#fff" font-size="18" font-weight="800">AUTONOMY</text>
+  <text x="110" y="196" text-anchor="middle" fill="#8a8a8a" font-size="12">// drones &amp; UAVs</text>
+</g>
+</svg>

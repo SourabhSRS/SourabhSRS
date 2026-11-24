@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240">
+<defs>
+  <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#ff0033"/><stop offset="1" stop-color="#ff6a00"/></linearGradient>
+</defs>
+<style>
+  text{font-family:'JetBrains Mono',Consolas,'Courier New',monospace}
+  .slash{stroke:#ff0033;stroke-width:7;stroke-linecap:square;stroke-dasharray:120;stroke-dashoffset:120;animation:draw 1.6s ease-out forwards}
+  .s2{animation-delay:.2s}.s3{animation-delay:.4s}.s4{animation-delay:.6s}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  .title{fill:#fff;font-size:68px;font-weight:800;letter-spacing:4px;animation:flick 4s infinite;filter:url(#glow)}
+  @keyframes flick{0%,18%,22%,62%,64%,100%{opacity:1}20%,63%{opacity:.55}}
+  .line{fill:#ff2a2a;font-size:15px;opacity:0;animation:show .3s forwards}
+  .l1{animation-delay:1.8s}.l2{animation-delay:2.2s}.l3{animation-delay:2.6s}.l4{animation-delay:3s}
+  @keyframes show{to{opacity:1}}
+  .bar{transform-box:fill-box;transform-origin:left center;transform:scaleX(0);animation:load 3.5s ease-in-out 1s forwards}
+  @keyframes load{to{transform:scaleX(1)}}
+  .scan{fill:url(#bar);opacity:.08;animation:scan 4s linear infinite}
+  @keyframes scan{from{transform:translateY(-240px)}to{transform:translateY(240px)}}
+  .cursor{fill:#ff2a2a;font-size:15px;animation:blink 1s steps(2) infinite}
+  @keyframes blink{50%{opacity:0}}
+</style>
+<rect width="1000" height="240" fill="#050505"/>
+<g stroke="#140000" stroke-width="1">
+  <path d="M0 40H1000M0 80H1000M0 120H1000M0 160H1000M0 200H1000"/>
+</g>
+<path class="slash" d="M60 40L90 200"/>
+<path class="slash s2" d="M100 40L130 200"/>
+<path class="slash s3" d="M870 40L840 200"/>
+<path class="slash s4" d="M910 40L880 200"/>
+<text class="title" x="500" y="120" text-anchor="middle">SOURABH_SRS</text>
+<text x="500" y="152" text-anchor="middle" fill="#ff2a2a" font-size="16" letter-spacing="8">CYBERNETIC HUD // ROBOTICS CORE</text>
+<text class="line l1" x="40" y="190">&gt; BOOT SEQUENCE INITIATED</text>
+<text class="line l2" x="40" y="208">&gt; LOADING AI / ROBOTICS / DRONE MODULES...</text>
+<text class="line l3" x="40" y="226">&gt; ACCESS GRANTED</text>
+<rect x="640" y="200" width="320" height="8" fill="#1a0000"/>
+<rect class="bar" x="640" y="200" width="320" height="8" fill="url(#bar)"/>
+<rect class="scan" x="0" y="0" width="1000" height="40"/>
+<text class="cursor" x="40" y="226" dx="0"> </text>
+</svg>
