@@ -218,7 +218,7 @@ AUTONOMOUS TECH  : ████████████████░░░░ 
 </div>
 
 ```yaml
-SRS_CORE:
+ZEPHYRUS_CORE:
 
   status: "ONLINE"
 
@@ -298,7 +298,7 @@ SRS_CORE:
 <a href="mailto:sourabhrshetty@outlook.com">
 <img src="https://img.shields.io/badge/EMAIL-CONTACT-050505?style=for-the-badge&logo=gmail&logoColor=ffffff&labelColor=050505&color=e10600" alt="Email">
 </a>&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/sourabh-r-shetty/">
+<a href="https://www.linkedin.com/in/sourabh-r-shetty-3bb0b33a7/">
 <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-050505?style=for-the-badge&logo=linkedin&logoColor=ffffff&labelColor=050505&color=e10600" alt="LinkedIn">
 </a>
 
